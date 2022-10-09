@@ -1,6 +1,6 @@
 package temperatureConverter;
 
-public class Conventer {
+public class Converter {
 	public Celcius kelvinToCelcius(Kelvin kelvin) {
 		return new Celcius(kelvin.getHeat()-273.15);
 	}
